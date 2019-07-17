@@ -1,0 +1,39 @@
+body {
+    background-color: bisque;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ .container-logged {
+    font-size: 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .confirm {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c7c02;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .confirm:hover {
+    background-color: #ffffff;
+    color: #0c7c02;
+    border: 2px solid #0c7c02;
+  }
